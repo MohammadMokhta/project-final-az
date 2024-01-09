@@ -76,3 +76,15 @@ button :hover{
     color: #4A55A2;
     transform: scale(.6);
 }
+#chk:checked ~ .login {
+    transform: translateY(-500px);
+}
+
+#chk:checked ~ .login label{
+    transform: scale(1);
+}
+
+#chk:checked ~ .signup label {
+    transform: scale(.6);
+
+}
